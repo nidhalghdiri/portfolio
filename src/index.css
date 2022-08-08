@@ -1,3 +1,62 @@
+/* Roboto Condensed Font  */
+
+@font-face {
+  font-family: robotoLight;
+  src: url('./assets/fonts/RobotoCondensed-Light.ttf');
+}
+@font-face {
+  font-family: robotoRegular;
+  src: url('./assets/fonts/RobotoCondensed-Regular.ttf');
+}
+@font-face {
+  font-family: robotoBold;
+  src: url('./assets/fonts/RobotoCondensed-Bold.ttf');
+}
+
+/* Raleway Font  */
+
+@font-face {
+  font-family: RalewayThin;
+  src: url('./assets/fonts/Raleway-Thin.ttf');
+}
+@font-face {
+  font-family: RalewayLight;
+  src: url('./assets/fonts/Raleway-Light.ttf');
+}
+@font-face {
+  font-family: RalewayExtraLight;
+  src: url('./assets/fonts/Raleway-ExtraLight.ttf');
+}
+@font-face {
+  font-family: RalewayRegular;
+  src: url('./assets/fonts/Raleway-Regular.ttf');
+}
+@font-face {
+  font-family: RalewayMedium;
+  src: url('./assets/fonts/Raleway-Medium.ttf');
+}
+@font-face {
+  font-family: RalewaySemiBold;
+  src: url('./assets/fonts/Raleway-SemiBold.ttf');
+}
+@font-face {
+  font-family: RalewayBold;
+  src: url('./assets/fonts/Raleway-Bold.ttf');
+}
+@font-face {
+  font-family: RalewayExtraBold;
+  src: url('./assets/fonts/Raleway-ExtraBold.ttf');
+}
+@font-face {
+  font-family: RalewayBlack;
+  src: url('./assets/fonts/Raleway-Black.ttf');
+}
+
+*{
+  font-family: RalewayRegular, 'sans-serif';
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +64,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+
 }
 
 code {

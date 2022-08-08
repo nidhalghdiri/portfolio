@@ -1,0 +1,89 @@
+.AboutMain{
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem 0;
+}
+
+.AboutMain .AboutImg{
+    width: 100%;
+    padding: 1rem 0;
+}
+.AboutMain .AboutImg img{
+ 
+    width: 100%;
+}
+.AboutMain .AboutImg img
+.AboutMain .AboutContent{
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.AboutMain .AboutContent .AboutTitle{
+    width: 100%;
+}
+.AboutMain .AboutContent .AboutTitle h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: RalewayBlack, 'sans-serif';
+    color: #7FC53C;
+   
+
+}
+.AboutMain .AboutContent .AboutPara{
+    width: 85%;
+}
+.AboutMain .AboutContent .AboutPara p {
+    font-size: 1.5rem;
+    font-family: RalewayExtraLight, 'sans-serif';
+    color: #FFFFFF;
+    direction: ltr;
+    text-align: justify;
+    line-height: 40px;
+}
+
+@media(max-width: 1024px){
+    .AboutMain .AboutContent .AboutTitle h1{
+        font-size: 3rem;
+    }
+    .AboutMain .AboutContent .AboutPara{
+        width: 100%;
+    }
+    .AboutMain .AboutContent .AboutPara p {
+        font-size: 1.2rem;
+    }
+}
+@media(max-width: 991px){
+    .AboutMain .AboutImg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .AboutMain .AboutImg img{
+        width:30%;
+    }
+    .AboutMain .AboutContent .AboutTitle{
+        text-align: center;
+    }
+    .AboutMain .AboutContent .AboutPara{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+@media(max-width: 600px){
+    .AboutMain .AboutContent{
+        padding: 0;
+    }
+    .AboutMain .AboutContent .AboutTitle h1{
+        font-size: 2rem;
+    }
+    .AboutMain .AboutContent .AboutPara p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+}

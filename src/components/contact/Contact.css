@@ -1,0 +1,33 @@
+.ContactMain {
+  width: 100%;
+  margin: 0rem 0;
+}
+
+.ContactMain .ContactTitle {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+}
+.ContactMain .ContactTitle h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: RalewayBlack, "sans-serif";
+  color: #7fc53c;
+}
+.ContactMain .ContactContent {
+  width: 80%;
+  margin: 1rem auto;
+}
+.contactForm {
+  color: #ffffff;
+}
+.contactForm .contactButton {
+  color: #ffffff;
+  background-color: #7fc53c;
+  outline: none;
+  border: none;
+  width: 25%;
+}
+.contactForm .contactInputs {
+  border-radius: 0%;
+}

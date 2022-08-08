@@ -1,0 +1,185 @@
+.ProjectsMain{
+    width: 100% ;
+    margin: 4rem 0;
+    background-color: #222629;
+}
+
+.ProjectsMain .ProjectsTitle{
+    width: 100%;
+    text-align: center;
+    margin: 4rem 0;
+}
+.ProjectsMain .ProjectsTitle h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: RalewayBlack, 'sans-serif';
+    color: #7FC53C;
+}
+
+.ProjectsMain .ProjectsContent{
+    width: 100%;
+    padding: 2rem 0;
+}
+.ProjectsMain .ProjectsContent .ProjectInfo{
+width: 100%;
+padding: 2rem 1rem;
+}
+.ProjectsMain .ProjectsContent .ProjectInfo .CompanyLogo{
+    width: 80%;
+    margin: 2rem auto;
+
+}
+.ProjectsMain .ProjectsContent .ProjectInfo .CompanyLogo img{
+    width: 40%;
+    
+}
+.ProjectsMain .ProjectsContent .ProjectInfo .CompanyAbout{
+    width: 80%;
+    margin: 2rem auto;
+}
+.ProjectsMain .ProjectsContent .ProjectInfo .CompanyAbout p{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-family: RalewayLight, 'sans-serif';
+    text-align: justify;
+    
+}
+.ProjectsMain .ProjectsContent .ProjectInfo .Buttons{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 6rem auto;
+}
+.ProjectsMain .ProjectsContent .ProjectInfo .Buttons a{
+    font-family: RalewayRegular, 'sans-serif';
+    color: #FFFFFF;
+    margin: 0 2rem;
+    border-radius: 0.5rem ;
+    padding:  1rem 2rem;
+}
+.ProjectsMain .ProjectsContent .ProjectInfo .Buttons a:hover{
+    text-decoration: none;
+}
+.ProjectsMain .ProjectsContent .ProjectInfo .Buttons a.Btn1{
+    border: 2px solid #FFFFFF;
+    
+}
+.ProjectsMain .ProjectsContent .ProjectInfo .Buttons a.Btn1:hover{
+    background-color: #ffffff;
+   
+    color: #222629;
+}
+.ProjectsMain .ProjectsContent .ProjectInfo .Buttons a.Btn2{
+    /* background-color: #222629; */
+    border: 2px solid #7FC53C;
+    color: #7FC53C;
+    
+    
+}
+.ProjectsMain .ProjectsContent .ProjectInfo .Buttons a.Btn2:hover{
+    background-color: #7FC53C;
+    color: #222629;
+   
+    
+}
+
+.ProjectsMain .ProjectsContent .ProjectImages{
+    width: 100%;
+    padding: 1rem 0;
+
+}
+.ProjectsMain .ProjectsContent .ProjectImages .ProjectMockup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.ProjectsMain .ProjectsContent .ProjectImages .ProjectMockup img{
+    width: 100%;
+}
+.ProjectsMain .ProjectsContent .ProjectImages .ProjectProducts{
+    width: 80%;
+    margin: 1rem auto;
+
+}
+.ProjectsMain .ProjectsContent .ProjectImages .ProjectProducts ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+
+}
+.ProjectsMain .ProjectsContent .ProjectImages .ProjectProducts ul li {
+    margin: 0 1rem;
+}
+.ProjectsMain .ProjectsContent .ProjectImages .ProjectProducts ul li img{
+    width: 100%;
+}
+
+@media(max-width: 1024px){
+    .ProjectsMain .ProjectsTitle h1{
+        font-size: 3rem;
+    }
+    .ProjectsMain .ProjectsContent .ProjectInfo .Buttons{
+        width: 100%;
+        justify-content: center;
+        margin: 4rem auto;
+    }
+    .ProjectsMain .ProjectsContent .ProjectInfo .Buttons a{
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
+@media(max-width: 991px){
+    .ProjectsMain .ProjectsContent .ProjectImages .ProjectProducts{
+        display: none;
+    }
+    .ProjectsMain .ProjectsContent .ProjectImages .ProjectMockup{
+        margin: 1rem 0;
+    }
+    .ProjectsMain .ProjectsContent .ProjectInfo .CompanyLogo{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem auto;
+    }
+    .ProjectsMain .ProjectsContent .ProjectInfo .CompanyLogo img{
+        width: 30%;
+    }
+    .ProjectsMain .ProjectsContent .ProjectInfo .CompanyAbout{
+        margin: 1rem auto;
+        text-align: center;
+    }
+    .ProjectsMain .ProjectsContent .ProjectInfo .CompanyAbout p{
+        font-size: 1.2rem;    
+    }
+    .ProjectsMain .ProjectsContent .ProjectInfo .Buttons{
+        justify-content: center;
+        margin: 4rem auto;
+    }
+}
+
+@media(max-width: 600px){
+    .ProjectsMain .ProjectsTitle h1{
+        font-size: 2rem;
+    }
+    .ProjectsMain .ProjectsContent .ProjectInfo .CompanyAbout p{
+        font-size: 1rem;    
+        text-align: justify;
+    }
+    .ProjectsMain .ProjectsContent .ProjectInfo .CompanyLogo img{
+        width: 50%;
+    }
+    .ProjectsMain .ProjectsContent .ProjectInfo .Buttons{
+      
+        margin: 2rem auto;
+    }
+    .ProjectsMain .ProjectsContent .ProjectInfo .Buttons a{
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        margin: 0 1rem;
+    }
+}
+

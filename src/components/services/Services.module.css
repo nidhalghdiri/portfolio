@@ -1,0 +1,84 @@
+.ServicesMain{
+    width: 80% ;
+    margin: 4rem auto;
+}
+
+.ServicesMain .ServicesTitle{
+    width: 100%;
+    text-align: center;
+}
+.ServicesMain .ServicesTitle h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: RalewayBlack, 'sans-serif';
+    color: #7FC53C;
+}
+
+.ServicesMain .ServicesContent{
+    width: 100%;
+    margin: 4rem 0;
+}
+
+.ServicesMain .ServicesContent .Service{
+    width: 100%;
+    cursor: pointer;
+
+}
+.ServicesMain .ServicesContent .Service:hover .ServiceTitle span{
+color: #7FC53C;
+}
+.ServicesMain .ServicesContent .Service .ServiceImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ServicesMain .ServicesContent .Service .ServiceImg img{
+    width: 50%;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.ServicesMain .ServicesContent .Service:hover .ServiceImg img{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.ServicesMain .ServicesContent .Service .ServiceTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+.ServicesMain .ServicesContent .Service .ServiceTitle span{
+    font-size: 2rem;
+    font-family: RalewayMedium, 'sans-serif';
+    color: #FFFFFF;
+}
+
+@media(max-width: 1024px){
+    .ServicesMain .ServicesTitle h1{
+        font-size: 3rem;
+    }
+    .ServicesMain .ServicesContent .Service .ServiceTitle span{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width: 991px){
+    .ServicesMain .ServicesContent .Service{
+        margin: 2rem 0;
+    }
+    .ServicesMain .ServicesContent .Service .ServiceTitle span{
+        font-size: 1.5rem;
+    }
+    .ServicesMain .ServicesContent .Service .ServiceImg img{
+        width: 30%;
+    }
+}
+
+@media(max-width: 600px){
+    .ServicesMain .ServicesTitle h1{
+        font-size: 2rem;
+    }
+}

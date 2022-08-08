@@ -1,0 +1,57 @@
+.navbar{
+    padding: 1.5rem 8rem;
+}
+.navbar .logo{
+    font-size: 4rem;
+    font-family: RalewayBlack, 'sans-serif';
+    color: #7FC53C;
+  
+}
+.navbar .logo:hover{
+    color: #7FC53C;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family: RalewayBold, 'sans-serif';
+    color: #756349;
+    font-size: 1.2rem;
+    margin: 0 2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #7FC53C;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #7FC53C;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(127,197,60,.5);
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28127, 197, 60, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler:focus{
+    outline: none;
+}
+.navbar-light .navbar-toggler-icon:focus{
+    outline: none;
+}
+
+@media(max-width: 1256px){
+    .navbar-light .navbar-nav .nav-link{
+        margin: 0 1rem;
+        font-size: 1rem;
+    }
+}
+@media(max-width: 1024px){
+    .navbar .logo{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:768px){
+    .navbar{
+        padding: 1.5rem 3rem;
+    }
+}

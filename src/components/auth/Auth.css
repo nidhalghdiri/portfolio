@@ -1,0 +1,151 @@
+.AuthMain {
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.AuthMain .AuthTitle {
+  width: 100%;
+  text-align: center;
+  margin: 4rem 0;
+}
+.AuthMain .AuthTitle h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: RalewayBlack, "sans-serif";
+  color: #7fc53c;
+}
+
+.AuthMain .AuthContent {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0px 6px 10px rgb(134, 132, 132);
+}
+
+.AuthMain .AuthContent .AuthBar {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+.AuthMain .AuthContent .AuthBar .Bar {
+  margin: 1.2rem 0;
+}
+.AuthMain .AuthContent .AuthBar .Bar:first-child {
+  margin-top: 0px;
+}
+.AuthMain .AuthContent .AuthBar .Bar .Info {
+  margin-bottom: 5px;
+}
+.AuthMain .AuthContent .AuthBar .Bar .Info span {
+  font-size: 1rem;
+  font-weight: bold;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 0.8rem;
+  transform: scaleX(0);
+  transform-origin: left;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+    0px 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line span {
+  height: 100%;
+  width: 80%;
+  background-color: #7fc53c;
+  position: absolute;
+  border-radius: 0.8rem;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scale(1);
+  }
+}
+
+.AuthMain .AuthContent .AuthBar .Bar .Line.Html span {
+  width: 90%;
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line.CSS span {
+  width: 80%;
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line.JS span {
+  width: 70%;
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line.php span {
+  width: 70%;
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line.react span {
+  width: 60%;
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line.symfony span {
+  width: 30%;
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -10px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000000;
+}
+
+.AuthMain .AuthContent .AuthBar .Bar .Line span::after {
+  position: absolute;
+  content: "80%";
+  right: 0;
+  top: -28px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: #000000;
+  padding: 1px 8px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line.Html span::after {
+  content: "90%";
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line.CSS span::after {
+  content: "80%";
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line.JS span::after {
+  content: "70%";
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line.php span::after {
+  content: "70%";
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line.react span::after {
+  content: "60%";
+}
+.AuthMain .AuthContent .AuthBar .Bar .Line.symfony span::after {
+  content: "30%";
+}

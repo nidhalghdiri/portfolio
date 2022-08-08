@@ -1,0 +1,218 @@
+.SliderContainer{
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+.SliderContainer .SliderContent{
+    width: 100%;
+    margin: 2rem 1rem;
+    padding-left: 2rem;
+   
+    
+}
+.SliderContainer .SliderContent .MyName{
+    width: 100%;
+    /* padding: 1rem 0rem; */
+}
+.SliderContainer .SliderContent .MyName h1{
+    color: #7FC53C;
+    font-family: RalewayBlack, 'sans-serif';
+    font-size: 5rem;
+}
+.SliderContainer .SliderContent .MyName h2{
+    color: #FFFFFF;
+    font-family: RalewaySemiBold, 'sans-serif';
+    font-size: 3rem;
+}
+.SliderContainer .SliderContent .Skills{
+    width: 100%;
+    margin: 2rem 0 ;
+}
+.SliderContainer .SliderContent .Skills .SkillsItems{
+    width: 100%;
+    display: flex;
+}
+.SliderContainer .SliderContent .Skills .SkillsItems .SkillsItem{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+
+}
+.SliderContainer .SliderContent .Skills .SkillsItems .SkillsItem img{
+    width: 100%;
+    height: 100%;
+}
+.SliderContainer .SliderContent .Buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 3rem 0;
+}
+.SliderContainer .SliderContent .Buttons a{
+    color: #FFFFFF;
+    /* background-color: #B08968; */
+    font-family: RalewayRegular, 'sans-serif';
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin: 0 1rem;
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.SliderContainer .SliderContent .Buttons a:hover{
+    text-decoration: none;
+}
+.SliderContainer .SliderContent .Buttons a.BtnCV {
+    /* background-color: #7F5539; */
+    border: 2px solid #FFFFFF;
+    
+    
+}
+.SliderContainer .SliderContent .Buttons a.btnProjects{
+    background-color: #7FC53C;
+    cursor: pointer;
+}
+.SliderContainer .SliderContent .Buttons a.BtnCV span{
+    font-family: RalewayRegular, 'sans-serif';
+}
+
+.SliderContainer .SliderImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.SliderContainer .SliderImg img{
+    width: 80%;
+}
+
+@media (max-width: 1450px){
+    .SliderContainer .SliderContent .MyName h1{
+        font-size: 5rem;
+    }
+    .SliderContainer .SliderContent .MyName h2{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1366px){
+    .SliderContainer .SliderContent .MyName h1{
+        font-size: 4rem;
+    }
+    .SliderContainer .SliderContent .MyName h2{
+        font-size: 3rem;
+    }
+    .SliderContainer .SliderContent .Skills{
+        width: 100%;
+        padding: 0rem;
+    } 
+    .SliderContainer .SliderContent .Skills .SkillsItems .SkillsItem{
+        width: 10%;
+        margin: 0 0.2rem;
+    }
+    .SliderContainer .SliderContent .Skills .SkillsItems .SkillsItem img{
+        width: 50%;
+        
+    }
+    .SliderContainer .SliderContent .Buttons a{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 1024px){
+    .SliderContainer .SliderContent .MyName h1{
+        font-size: 3rem;
+    }
+    .SliderContainer .SliderContent .MyName h2{
+        font-size: 1.5rem;
+    }
+    .SliderContainer .SliderContent .Buttons a{
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        width: 40%;
+    }
+
+    .SliderContainer .SliderContent .Buttons a.BtnCV img{
+        display: none;
+    }
+}
+@media (max-width: 991px){
+    .SliderContainer .SliderContent{
+        margin: 2rem 0;
+    }
+    .SliderContainer .SliderContent .MyName{
+        text-align: center;
+    }
+    .SliderContainer .SliderContent .Skills{
+        display: none;
+    }
+    .SliderContainer .SliderContent .Buttons{
+        width: 60%;
+        
+        margin: 1rem auto;
+    }
+    .SliderContainer .SliderContent .Buttons a{
+        width: 40%;
+    }
+    
+    .SliderContainer .SliderImg img{
+        width: 40%;
+    }
+}
+@media (max-width: 768px){
+    .SliderContainer{
+        padding: 2rem 0;
+    }
+   
+    .SliderContainer .SliderContent .Buttons{
+        width: 80%;
+        
+        margin: 1rem auto;
+    }
+    .SliderContainer .SliderContent .Buttons a{
+        width: 40%;
+    }
+    
+}
+@media (max-width: 600px){
+    .SliderContainer .SliderContent{
+        width: 100%;
+        margin: 2rem 0.5rem;
+        padding-left: 0rem;
+       
+        
+    }
+    .SliderContainer .SliderContent .MyName h1{
+        font-size: 2rem;
+    }
+    .SliderContainer .SliderContent .MyName h2{
+        font-size: 1rem;
+    }
+
+    .SliderContainer .SliderContent .Buttons{
+        width: 90%;
+        
+        margin: 1rem auto;
+    }
+    .SliderContainer .SliderContent .Buttons a{
+        font-size: 0.8rem;
+        width: 40%;
+    }
+    .SliderContainer .SliderContent .Buttons a img{
+        width: 20%;
+    }
+    
+}
+@media (max-width: 400px){
+    .SliderContainer .SliderContent .Buttons a{
+        font-size: 0.6rem;
+        width: 40%;
+    }
+    .SliderContainer .SliderContent .Buttons a img{
+        width: 15%;
+    }
+}
